@@ -28,7 +28,6 @@
 
     <Button
         android:id="@+id/done_button"
-        style="@style/Widget.AppCompat.Button.Colored"
         android:backgroundTint="@color/buttonColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,6 +39,8 @@
     <TextView
         android:id="@+id/nickname_text"
         style="@style/NameStyle"
+        android:background="@color/colorAccent"
+        android:paddingBottom="@dimen/small_padding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
